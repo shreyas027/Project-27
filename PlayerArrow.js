@@ -60,11 +60,7 @@ class PlayerArrow {
     
     pop();
 
-    remove(index); {
-      this.isRemoved = true;
-      Matter.World.remove(world, this.body)
-      delete playerArrows[index]
-    }
+ 
       
     
 
